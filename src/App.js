@@ -15,10 +15,10 @@ class App extends Component {
 
        <Switch>
         <Route path="/form" component={Form} />
-        <Route path="/" exact component={HomePage} />
+        <Route path="/homePage" exact component={HomePage} />
         
         
-        <Redirect from="/" exact to="/homePage" />
+        
         
         
         </Switch>
