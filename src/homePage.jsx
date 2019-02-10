@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import Sightings from './sightings';
-import Form from './components/form'
 
 
 
 class Home extends Component {
     state = {}
-
-
-
-    render() { 
+     render() { 
         
         return ( 
             <React.Fragment>
@@ -19,14 +14,7 @@ class Home extends Component {
                     <h1 className="App-title">Birds Watching Application</h1>
                     <button><Link to="/form">Add New Observation</Link></button>
                     </header>
-                   
-
-                    
-                
                 </div>
-                
-                
-                
             </React.Fragment>
          );
     }
