@@ -6,7 +6,7 @@ body {
 }
 
 .bg {
-   background: url("./1.jpg") center center no-repeat;
+   background: url("1.jpg") center center no-repeat;
    height: 100%; 
    background-position: center;
    background-repeat: no-repeat;
