@@ -177,7 +177,7 @@ return (
 
                     <div style={{marginTop: '20px'}}>
                        <Pagination obsCount={this.state.list.length}
-                                    pageSize={10}
+                                    pageSize={this.state.pageSize}
                                     currentPage={this.state.currentPage}
                                     onPageChange={this.handlePageChange}/>
                     </div>
