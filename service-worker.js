@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/birds-watching-app/precache-manifest.e321e0a049466e1b2b8468b3f62a42f8.js"
+  "/birds-watching-app/precache-manifest.8fa4f5b16a9a49775e41d48cdbf8c774.js"
 );
 
 workbox.clientsClaim();
