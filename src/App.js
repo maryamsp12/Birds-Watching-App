@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom'
-import HomePage from './components/homePage'
+import Observations from './components/observations';
 import Form from './components/form'
-
-import './App.css';
+import NotFound from './components/notFound'
+import { Route, Switch, Redirect } from 'react-router-dom';
+import NavBar from './navBar';
+//import './App.css';
 
 
 
 class App extends Component {
   render() {
     return (
+      <div>
+      <NavBar />
+      <main className="container">
+        <switch>
+          <Route path='/observations' component={Observations} />
+          <Route path='/form' component={Form} />
+          <Route path='/notFound' component={NotFound} />
 
-      <div className="container">      
-
-       <Switch>
-        <Route path="/form" component={Form} />
-        <Route path="/homePage" exact component={HomePage} />
-        
-        
-        <Redirect from="/" exact to="/homePage" />
-        
-        
-        </Switch>
-       
-      
-        </div>
+          <Redirect from='/' exact to='/observations' />
+        </switch>
+      </main>
+      </div>
     );
   }
 }
