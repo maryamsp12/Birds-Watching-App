@@ -1,3 +1,3 @@
 
 
-PREVIEW: https://birds-watching-app.herokuapp.com/homePage
+PREVIEW:  https://birds-watching-application.herokuapp.com/observations
