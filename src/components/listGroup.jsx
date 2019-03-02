@@ -7,7 +7,8 @@ const ListGroup = (props) => {
         <div>
             <ul className="list=group">
             {listCategory.map(item => (
-                <li onClick={()=>onCategorySelect(item)} 
+                <li onClick={()=>onCategorySelect(item)}
+                    style={{background: 'rgba(0,0,0,.05)'}}
                     key={item._id} 
                     className={item === selectedCategory ? 'list-group-item clickable active' : 'list-group-item clickable'}                    
                     >
