@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0 0 0 0;
   font-family: sans-sarif;
+  background: rgba(0,0,0,.05);
 }
  .navbar {
    margin-bottom: 30px;
