@@ -1,5 +1,4 @@
 
 
-PREVIEW:  https://maryamsp12.github.io/observations
-          https://birds-watching-application.herokuapp.com/observations
+PREVIEW:  https://bird-finder-app.herokuapp.com/
       
